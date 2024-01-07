@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @HariRavi7
-- 👀 I’m interested in Comoputer Networking
+- 👀 I’m interested in Computer Networking and network topologies.
 - 🌱 I’m currently learning CCNA Certifications...
 
 <!---
