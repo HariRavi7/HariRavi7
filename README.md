@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @HariRavi7
 - 👀 I’m interested in Computer Networking and network topologies.
 - 🌱 I’m currently learning CCNA Certifications...
-- CCNA Blog website: harinetworking.southindia.cloudapp.azure.com
+-  CCNA Blog website: [harinetworkingblog](harinetworking.southindia.cloudapp.azure.com)
 
 <!---
 HariRavi7/HariRavi7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
