@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @Hariharan Ravi
-- 👀 I’m interested in Computer Networking / DevOps anything that has to do with proecesses and systems.
+- 👀 I’m interested in Computer Networking / DevOps anything that has to do with processes and systems.
 - 🌱 I’m currently learning for Azure 104 Certifications.
 -  CCNA Blog website: (harinetworking.southindia.cloudapp.azure.com) -- Depricated due to free credit resource limits.
+-  Love exploring the backbone of the internet and diving deep into protocols to see how the world communicates.
 
 
 <!---
