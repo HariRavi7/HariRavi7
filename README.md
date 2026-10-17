@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.cisroute.com"><img src="https://img.shields.io/badge/Website-cisroute.com-80FFDB?style=for-the-badge&logo=googlechrome&logoColor=0d1117" alt="cisroute.com"/></a>
   <a href="https://www.youtube.com/@Cisroute-Hari"><img src="https://img.shields.io/badge/YouTube-Cisroute-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Cisroute on YouTube"/></a>
   <a href="https://www.linkedin.com/in/hariharan-ravi1/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <img src="https://img.shields.io/badge/Destination_AS-109_·_Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Destination AS109 Cisco"/>
@@ -29,6 +30,7 @@ Some people see "the internet". I see **ARP requests, TCP handshakes, OSPF adjac
 - 📚 **Currently studying:** **CCNP SPCOR**, service provider core: BGP, MPLS, and the backbone of the internet
 - 🧪 **Living in:** Cisco Packet Tracer and GNS3, building, breaking and fixing topologies
 - ⚙️ **Also into:** DevOps, and anything to do with processes and systems
+- 🏠 **Home base:** [**www.cisroute.com**](https://www.cisroute.com), where I write about networking, Azure, Terraform, DevOps and GenAI
 - ▶️ **Teaching on:** [**Cisroute**](https://www.youtube.com/@Cisroute-Hari), my YouTube channel where I break networking down one packet at a time
 - 🎯 **Destination AS:** **AS109, Cisco Systems.** That's the path I'm routing my career towards
 - 💬 **Ask me about:** why your packet took *that* path, longest-prefix match, or why it's always DNS
@@ -86,6 +88,8 @@ end
   <img src="https://img.shields.io/badge/Packet_Tracer-049FD9?style=for-the-badge&logo=cisco&logoColor=white"/>
   <img src="https://img.shields.io/badge/GNS3-2C3E50?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
@@ -98,6 +102,7 @@ end
 | 🧮 **Addressing** | IPv4/IPv6 subnetting, VLSM, NAT, DHCP |
 | 🔬 **Analysis** | Packet captures in Wireshark, troubleshooting hop by hop |
 | 🏗️ **Service provider** | CCNP SPCOR track: MPLS, BGP at scale, how ISPs build the backbone |
+| ☁️ **Cloud** | Azure networking and infrastructure as code with Terraform |
 | 🤖 **Exploring next** | Network automation with Python, DevOps |
 
 ## 📊 Interface counters
@@ -115,7 +120,8 @@ end
 
 <p align="center">
   Whether you're studying for your CCNA, building a lab, or just curious why the internet works at all,<br/>
-  <b>send a SYN.</b> I'll always ACK. 📨
+  <b>send a SYN.</b> I'll always ACK. 📨<br/><br/>
+  🌐 <a href="https://www.cisroute.com"><b>www.cisroute.com</b></a> &nbsp;·&nbsp; ▶️ <a href="https://www.youtube.com/@Cisroute-Hari"><b>Cisroute on YouTube</b></a> &nbsp;·&nbsp; 💼 <a href="https://www.linkedin.com/in/hariharan-ravi1/"><b>LinkedIn</b></a>
 </p>
 
 <p align="center">

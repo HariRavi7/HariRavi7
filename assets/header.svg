@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Hi, I'm Hariharan Ravi. Computer networks enthusiast and creator of Cisroute. Packets routing to AS109, Cisco.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Hi, I'm Hariharan Ravi, www.cisroute.com. Computer networks enthusiast and creator of Cisroute. Packets routing to AS109, Cisco.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070b18"/>
@@ -55,6 +55,7 @@
   <rect width="1000" height="320" rx="16" fill="url(#grid)" opacity=".7"/>
 
   <!-- ===== Left: hello ===== -->
+  <text x="44" y="42" class="mono fade d1" font-size="13" fill="#4cc9f0">🌐 www.cisroute.com</text>
   <g class="fade d1">
     <text x="44" y="82" font-size="30" class="wave">👋</text>
     <text x="84" y="80" class="sans" font-size="22" fill="#9fb3c8">Hi there, I'm</text>
