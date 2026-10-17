@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110" role="img" aria-label="Animated TCP three-way handshake between you and Hariharan: SYN, SYN-ACK, ACK, connection established.">
+  <defs>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Menlo,Consolas,monospace; }
+    </style>
+  </defs>
+  <rect width="1000" height="110" rx="14" fill="#0d1117"/>
+
+  <!-- 7s master clock; everything below hangs off it so the handshake loops -->
+  <rect width="0" height="0"><animate id="clk" attributeName="x" from="0" to="0" begin="0;clk.end" dur="7s"/></rect>
+
+  <line x1="130" y1="55" x2="870" y2="55" stroke="#1f4b6e" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <circle cx="90" cy="55" r="30" fill="#0f2238" stroke="#4cc9f0" stroke-width="2"/>
+  <text x="90" y="60" text-anchor="middle" font-size="14" font-weight="700" fill="#4cc9f0">you</text>
+  <circle cx="910" cy="55" r="30" fill="#0f2238" stroke="#80ffdb" stroke-width="2"/>
+  <text x="910" y="60" text-anchor="middle" font-size="14" font-weight="700" fill="#80ffdb">me</text>
+
+  <!-- SYN -->
+  <g opacity="0">
+    <rect x="-34" y="-13" width="68" height="26" rx="6" fill="#4cc9f0"/>
+    <text y="5" text-anchor="middle" font-size="13" font-weight="800" fill="#06121f">SYN</text>
+    <animateMotion path="M140,55 H860" begin="clk.begin" dur="1.4s" fill="remove"/>
+    <set attributeName="opacity" to="1" begin="clk.begin" dur="1.4s"/>
+  </g>
+  <!-- SYN-ACK -->
+  <g opacity="0">
+    <rect x="-46" y="-13" width="92" height="26" rx="6" fill="#80ffdb"/>
+    <text y="5" text-anchor="middle" font-size="13" font-weight="800" fill="#06121f">SYN-ACK</text>
+    <animateMotion path="M860,55 H140" begin="clk.begin+1.6s" dur="1.4s" fill="remove"/>
+    <set attributeName="opacity" to="1" begin="clk.begin+1.6s" dur="1.4s"/>
+  </g>
+  <!-- ACK -->
+  <g opacity="0">
+    <rect x="-34" y="-13" width="68" height="26" rx="6" fill="#4cc9f0"/>
+    <text y="5" text-anchor="middle" font-size="13" font-weight="800" fill="#06121f">ACK</text>
+    <animateMotion path="M140,55 H860" begin="clk.begin+3.2s" dur="1.4s" fill="remove"/>
+    <set attributeName="opacity" to="1" begin="clk.begin+3.2s" dur="1.4s"/>
+  </g>
+
+  <g opacity="0">
+    <rect x="330" y="38" width="340" height="34" rx="17" fill="#0d1117" stroke="#ffd166" stroke-width="1.5"/>
+    <text x="500" y="60" text-anchor="middle" font-size="14" font-weight="800" fill="#ffd166">✓ CONNECTION ESTABLISHED</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" begin="clk.begin+4.7s" dur="2.2s"/>
+  </g>
+</svg>

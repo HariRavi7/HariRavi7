@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="380" viewBox="0 0 340 380" role="img" aria-label="Hey, I'm Hari: the greeting gets encapsulated in TCP, IP and Ethernet headers. I don't just use the internet, I want to know every hop it takes.">
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Menlo,Consolas,monospace; }
+      .sans { font-family: 'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; }
+      .layer { transform-box: fill-box; transform-origin: center; opacity: 0; animation-duration: 9s; animation-iteration-count: infinite; animation-timing-function: ease-out; }
+      .pay { animation-name: pay } .tcp { animation-name: tcp } .ip { animation-name: ip } .eth { animation-name: eth } .tag { animation-name: tag }
+      @keyframes pay { 0% {opacity:0; transform:scale(.85)} 6%,90% {opacity:1; transform:scale(1)} 100% {opacity:0} }
+      @keyframes tcp { 0%,15% {opacity:0; transform:scale(1.08)} 20%,90% {opacity:1; transform:scale(1)} 100% {opacity:0} }
+      @keyframes ip  { 0%,28% {opacity:0; transform:scale(1.08)} 33%,90% {opacity:1; transform:scale(1)} 100% {opacity:0} }
+      @keyframes eth { 0%,41% {opacity:0; transform:scale(1.08)} 46%,90% {opacity:1; transform:scale(1)} 100% {opacity:0} }
+      @keyframes tag { 0%,52% {opacity:0; transform:translateY(8px)} 58%,90% {opacity:1; transform:translateY(0)} 100% {opacity:0} }
+      .wave { transform-box: fill-box; transform-origin: 70% 80%; animation: wave 1.8s ease-in-out infinite; }
+      @keyframes wave { 0%,100% {transform:rotate(0)} 25% {transform:rotate(18deg)} 50% {transform:rotate(-8deg)} 75% {transform:rotate(14deg)} }
+      .blink { animation: blink 1s steps(1) infinite } @keyframes blink { 50% {opacity:0} }
+    </style>
+  </defs>
+
+  <rect width="340" height="380" rx="16" fill="#0d1117"/>
+  <text x="20" y="40" class="mono" font-size="12" fill="#6e7681">&gt; encapsulating hello…<tspan class="blink" fill="#80ffdb"> █</tspan></text>
+
+  <!-- L2: Ethernet frame -->
+  <g class="layer eth">
+    <rect x="14" y="62" width="312" height="208" rx="10" fill="#1a1405" stroke="#ffd166" stroke-width="2"/>
+    <text x="26" y="80" class="mono" font-size="11" font-weight="700" fill="#ffd166">ETH · src Passion0/0 → dst Cisroute</text>
+  </g>
+  <!-- L3: IP packet -->
+  <g class="layer ip">
+    <rect x="30" y="90" width="280" height="166" rx="9" fill="#1b0f24" stroke="#d2a8ff" stroke-width="2"/>
+    <text x="42" y="108" class="mono" font-size="11" font-weight="700" fill="#d2a8ff">IP · ttl 64 · dst-AS 109</text>
+  </g>
+  <!-- L4: TCP segment -->
+  <g class="layer tcp">
+    <rect x="46" y="118" width="248" height="124" rx="8" fill="#08202c" stroke="#4cc9f0" stroke-width="2"/>
+    <text x="58" y="136" class="mono" font-size="11" font-weight="700" fill="#4cc9f0">TCP · SYN · dport 443</text>
+  </g>
+  <!-- L7: the payload -->
+  <g class="layer pay">
+    <rect x="62" y="146" width="216" height="82" rx="8" fill="#0b2a26" stroke="#80ffdb" stroke-width="2"/>
+    <text x="150" y="196" class="sans" font-size="23" font-weight="800" fill="#80ffdb" text-anchor="middle">Hey, I'm Hari</text>
+    <text x="248" y="196" font-size="22" class="wave">👋</text>
+    <text x="170" y="218" class="mono" font-size="10" fill="#4a8f80" text-anchor="middle">payload · 13 bytes of hello</text>
+  </g>
+
+  <!-- Tagline -->
+  <g class="layer tag">
+    <text x="170" y="306" class="sans" font-size="15" fill="#c9d1d9" text-anchor="middle">I don't just <tspan font-style="italic">use</tspan> the internet.</text>
+    <text x="170" y="330" class="sans" font-size="15" font-weight="700" fill="#80ffdb" text-anchor="middle">I want to know every hop it takes.</text>
+    <text x="170" y="358" class="mono" font-size="11" fill="#ff5c7a" text-anchor="middle">▶ Cisroute on YouTube</text>
+  </g>
+</svg>
